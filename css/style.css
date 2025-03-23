@@ -1,0 +1,55 @@
+body {
+    background: #00222e;
+    color: whitesmoke;
+}
+
+.cabecera {
+    text-align: center;
+}
+
+.menu {
+    position: fixed; /* Fijar el nav */
+    bottom: 0;       /* Ubicarlo en la parte inferior de la página */
+    left: 50%;       /* Alinearlo horizontalmente */
+    transform: translateX(-50%); /* Centrarlo completamente */
+    width: 100%;      /* Opcional: ancho ajustable */
+    background-color: #00222e; /* Color de fondo */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Sombra para dar estilo */
+}
+
+.navegacion {
+    list-style-type: none; /*Es para quitar viñetas*/
+}
+
+.navegacion li {
+    display: inline;
+    margin-right: 30px; /* Ajusta el espacio entre elementos */
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.icono-navegacion {
+    font-size: 2rem;
+}
+
+.navegacion-perfil {
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.foto-perfil {
+    border-radius: 50%; /*Es para hacer imagen circular*/
+}
+
+.publicaciones {
+    text-align: center;
+    flex: 1;/*Ocupa el espacio restante*/
+    padding-bottom: 80px;/*Agrega espacio al final del contenido para evitar la superposición*/
+}
