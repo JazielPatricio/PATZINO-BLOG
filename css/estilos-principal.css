@@ -1,0 +1,22 @@
+body {
+    /*Color de fondo*/
+    background: #00222e;
+    /*Color de texto*/
+    color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+.foto-perfil {
+    /*Es para hacer el borde de la imagen en forma de circulo*/
+    border-radius: 50%;
+    /*Las siguientes 3 lineas son parta centrar la foto de perfil*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

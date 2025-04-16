@@ -1,0 +1,59 @@
+.publicacion {
+    background-color: #102942;
+    border-radius: 20px;
+    padding-bottom: 1px;
+    width: 600px;
+    /*Centramos la publicacion horizontalmente*/
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.publicacion-final {
+    background-color: #102942;
+    border-radius: 20px;
+    padding-bottom: 1px;
+    width: 600px;
+    /*Centramos la publicacion horizontalmente*/
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 90px;/*Agrega espacio al final del contenido para evitar la superposición*/
+}
+
+.foto-publicacion {
+    border-radius: 50%;
+    /*Margen superior*/
+    margin-top: 10px;
+    /*Margen izquierdo*/
+    margin-left: 10px;
+}
+
+.informacion-publicacion {
+    /*Habilita Flexbox para el contenedor*/
+    display:flex;
+    /*Coloca los elementos hijos en una fila horizontal*/
+    flex-direction: row;
+
+}
+
+.datos-publicacion {
+    /*Hace un margen de 10px a lado izquierdo (separando la informacion de la foto de perfil*/
+    margin-left: 10px;
+    /*Margen superior*/
+    margin-top: 20px
+}
+
+.contenido-publicacion {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/*Estilos para pantallas pequeñas, telefonos*/
+@media (max-width: 767px) {
+    .publicacion {
+        width: 90%;
+    }
+
+    .publicacion-final {
+        width: 90%;
+    }
+}
