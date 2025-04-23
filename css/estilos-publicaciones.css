@@ -50,10 +50,10 @@
 /*Estilos para pantallas pequeñas, telefonos*/
 @media (max-width: 767px) {
     .publicacion {
-        width: 90%;
+        width: 95%;
     }
 
     .publicacion-final {
-        width: 90%;
+        width: 95%;
     }
 }
