@@ -1,0 +1,33 @@
+.icono {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.mango, .espejo {
+    position: absolute;
+}
+
+/* Partes internas escaladas con respecto a 1em del contenedor */
+.mango {
+    background-color: whitesmoke;
+    width: 7%;
+    height: 60%;
+    border-radius: 10%;
+    position: absolute;
+    top: 45%;
+    left: 24%;
+    transform: rotate(45deg);
+}
+
+.espejo {
+    background-color: whitesmoke;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+

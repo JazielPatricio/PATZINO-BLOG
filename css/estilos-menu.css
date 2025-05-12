@@ -1,0 +1,17 @@
+.menu {
+    position: fixed; /*Hace que el div este fijo en la pantalla*/
+    bottom: 0; /*Pega completamente al borde inferior de la pantalla*/
+    left: 0; /*Pega al borde izquierdo de la pantalla*/
+    width: 100%; /*Hace que el div ocupe todo el ancho disponible*/
+    height: 10vh; /*Altura del DIV del 10% del navegador*/
+    background-color: #00222e; /*Color de fondo*/
+    color: white; /*Color del texto dentro del div a blanco*/
+    display: flex; /*Activa FLEXBOX*/
+    align-items: center; /*Centra el contenido verticalmente*/
+    justify-content: center; /*Centra el contenido horizontalmente*/
+    border: 2px solid #0a3544;
+}
+
+.lupa {
+    
+}
